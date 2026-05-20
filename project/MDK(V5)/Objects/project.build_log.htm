@@ -1,0 +1,177 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zheng zhaolin, zzl, LIC=SDA0P-MKA8G-MM49I-TJBTT-X3RTL-4JMC4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  E:\Keil5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\广州科技职业技术大学+郑钊霖+13322738086\2 源代码\gd32f407\project\MDK(V5)\project.uvprojx
+Project File Date:  02/19/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'E:\Keil5\ARM\ARMCLANG\Bin'
+Rebuild target 'Project'
+compiling gd32f4xx_exti.c...
+compiling gd32f4xx_fwdgt.c...
+compiling gd32f4xx_crc.c...
+compiling gd32f4xx_dci.c...
+compiling gd32f4xx_gpio.c...
+compiling gd32f4xx_ctc.c...
+compiling gd32f4xx_dbg.c...
+compiling gd32f4xx_i2c.c...
+compiling gd32f4xx_dac.c...
+compiling gd32f4xx_dma.c...
+../../app/main.c(39): warning: passing 'char[16]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   39 |                 OLED_ShowString(0,0,"Temp:      Hui:",8,1);
+      |                                     ^~~~~~~~~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(40): warning: passing 'char[16]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   40 |                 OLED_ShowString(0,8,"soil:      mq :",8,1);
+      |                                     ^~~~~~~~~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(41): warning: passing 'char[9]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   41 |                 OLED_ShowString(0,16,"fire:   ",8,1);
+      |                                      ^~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(42): warning: passing 'char[18]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   42 |                 OLED_ShowString(0,24,"lat:            N",8,1);
+      |                                      ^~~~~~~~~~~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(43): warning: passing 'char[18]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   43 |                 OLED_ShowString(0,32,"lon:            W",8,1);
+      |                                      ^~~~~~~~~~~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(173): warning: passing 'char[6]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  173 |           OLED_ShowString(0,64-16,"ERROR",8,1);
+      |                                   ^~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+../../app/main.c(233): warning: passing 'uint8_t[100]' (aka 'unsigned char[100]') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  233 |                         sprintf(buff,"T=\"%s\"",Save_Data.UTCTime);
+      |                                 ^~~~
+E:\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h(417): note: passing argument to parameter here
+  417 | extern _ARMABI int sprintf(char * __restrict /*s*/, const char * __restrict /*format*/, ...) __attribute__((__nonnull__(1,2)));
+      |                                                   ^
+../../app/main.c(242): warning: passing 'uint8_t[100]' (aka 'unsigned char[100]') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  242 |                                 sprintf(lat_buff,"%s",Save_Data.latitude);
+      |                                         ^~~~~~~~
+E:\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h(417): note: passing argument to parameter here
+  417 | extern _ARMABI int sprintf(char * __restrict /*s*/, const char * __restrict /*format*/, ...) __attribute__((__nonnull__(1,2)));
+      |                                                   ^
+../../app/main.c(245): warning: passing 'uint8_t[100]' (aka 'unsigned char[100]') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  245 |                                 sprintf(NS_buff,"%s",Save_Data.N_S);
+      |                                         ^~~~~~~
+E:\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h(417): note: passing argument to parameter here
+  417 | extern _ARMABI int sprintf(char * __restrict /*s*/, const char * __restrict /*format*/, ...) __attribute__((__nonnull__(1,2)));
+      |                                                   ^
+../../app/main.c(248): warning: passing 'uint8_t[100]' (aka 'unsigned char[100]') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  248 |                                 sprintf(lon_buff,"%s",Save_Data.longitude);
+      |                                         ^~~~~~~~
+E:\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h(417): note: passing argument to parameter here
+  417 | extern _ARMABI int sprintf(char * __restrict /*s*/, const char * __restrict /*format*/, ...) __attribute__((__nonnull__(1,2)));
+      |                                                   ^
+../../app/main.c(251): warning: passing 'uint8_t[100]' (aka 'unsigned char[100]') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  251 |                                 sprintf(EW_buff,"%s",Save_Data.E_W);
+      |                                         ^~~~~~~
+E:\Keil5\ARM\ARMCLANG\Bin\..\include\stdio.h(417): note: passing argument to parameter here
+  417 | extern _ARMABI int sprintf(char * __restrict /*s*/, const char * __restrict /*format*/, ...) __attribute__((__nonnull__(1,2)));
+      |                                                   ^
+../../app/main.c(258): warning: passing 'char[12]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  258 |                                          OLED_ShowString(0,64-8,"not usefull",8,1);
+      |                                                                 ^~~~~~~~~~~~~
+../../bsp/OLED/HARDWARE/OLED\oled.h(64): note: passing argument to parameter 'chr' here
+   64 | void OLED_ShowString(u8 x,u8 y,u8 *chr,u8 size1,u8 mode);
+      |                                    ^
+12 warnings generated.
+compiling main.c...
+compiling gd32f4xx_adc.c...
+compiling gd32f4xx_can.c...
+compiling gd32f4xx_exmc.c...
+compiling gd32f4xx_fmc.c...
+compiling gd32f4xx_enet.c...
+compiling gd32f4xx_ipa.c...
+compiling gd32f4xx_iref.c...
+compiling gd32f4xx_misc.c...
+compiling gd32f4xx_pmu.c...
+compiling gd32f4xx_syscfg.c...
+compiling gd32f4xx_rcu.c...
+compiling gd32f4xx_sdio.c...
+compiling gd32f4xx_spi.c...
+compiling gd32f4xx_rtc.c...
+compiling gd32f4xx_timer.c...
+assembling startup_gd32f407_427.s...
+compiling gd32f4xx_tli.c...
+compiling ringbuffer.c...
+compiling gd32f4xx_trng.c...
+compiling gd32f4xx_wwdgt.c...
+compiling soft_timer.c...
+compiling system_gd32f4xx.c...
+compiling bsp_uart.c...
+compiling board.c...
+compiling dht11.c...
+compiling gd32f4xx_usart.c...
+compiling hmacsha1.c...
+compiling time.c...
+compiling bsp_led.c...
+compiling adc.c...
+compiling bsp_gps.c...
+../../bsp/esp01s/bsp_esp01s.c(418): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  418 |                 printf("WIFI<C3><FB><B3>苹<F2><C3><DC><C2><EB><D3>写<ED>,<B8><B4>位<D6><D8><C6><F4>\r\n");
+      |                             ^~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~ ~~~~~~~~ ~~~~~~~~~~~~~~~~
+../../bsp/esp01s/bsp_esp01s.c(448): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  448 |                 printf("<C1><AC><BD><D3>aliyu失<B0><DC>,<B8><B4>位STM32<D6><D8><C1><AC>\r\n");
+      |                         ^~~~~~~~~~~~~~~~      ~~~~~~~~ ~~~~~~~~      ~~~~~~~~~~~~~~~~
+../../bsp/esp01s/bsp_esp01s.c(459): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  459 |         printf("<C1><AC><BD><D3>aliyu<B3>晒<A6>\r\n");
+      |                 ^~~~~~~~~~~~~~~~     ~~~~ ~~~~
+3 warnings generated.
+compiling bsp_esp01s.c...
+compiling bump.c...
+compiling oled.c...
+linking...
+Program Size: Code=26652 RO-data=8080 RW-data=644 ZI-data=5668  
+FromELF: creating hex file...
+".\Objects\project.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F4xx_DFP.3.0.3.pack
+                GigaDevice::GD32F4xx_DFP@3.0.3
+                GigaDevice GD32F4xx Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

@@ -1,0 +1,1651 @@
+Dependencies for Project 'project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (..\..\app\main.c)(0x67B4964B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/main.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h..\..\bsp\esp01s\bsp_esp01s.h)(0x00000000)
+I (E:\Keil5\ARM\ARMCLANG\include\bsp\DHT11\dht11.h)(0x00000000)
+I (..\..\bsp\OLED\HARDWARE\OLED\oled.hg.\..\bsp\Time\time.h)(0x00000000)
+I (..\..\bsp\adc+mda\adc.h\.\..\bsp\gps\bsp_gps.hi.\..\bsp\bump\bump.h)(0x00000000)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_adc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_can.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_can.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_crc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_crc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ctc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_ctc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dac.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_dac.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dbg.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_dbg.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dci.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_dci.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_dma.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_enet.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_enet.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exmc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_exmc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_exti.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fmc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_fmc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_fwdgt.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_fwdgt.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_gpio.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_i2c.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_ipa.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_ipa.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_iref.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_iref.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_misc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_pmu.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_rcu.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_rtc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_rtc.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_sdio.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_sdio.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_spi.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_syscfg.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_timer.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_tli.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_tli.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_trng.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_trng.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_usart.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\GD32F4xx_standard_peripheral\Source\gd32f4xx_wwdgt.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/gd32f4xx_wwdgt.o -MD)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\libraries\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f407_427.s)(0x674E7127)(--cpu Cortex-M4.fp.sp -g --diag_suppress=A1950W-IE:\Keil5\Pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include--pd "__UVISION_VERSION SETA 539"--pd "GD32F407 SETA 1"--list .\listings\startup_gd32f407_427.lst--xref -o .\objects\startup_gd32f407_427.o--depend .\objects\startup_gd32f407_427.d)
+F (..\..\module\soft_timer\soft_timer.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/soft_timer.o -MD)
+I (..\..\board\board.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h)(0x674E7127)
+F (..\..\module\ringbuffer\ringbuffer.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/ringbuffer.o -MD)
+I (..\..\module\ringbuffer\ringbuffer.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+F (..\..\libraries\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/system_gd32f4xx.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+F (..\..\board\board.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/board.o -MD)
+I (E:\Keil5\ARM\ARMCLANG\include\board\board.h)(0x00000000)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.hx.\..\libraries\CMSIS\core_cmInstr.h)(0x00000000)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h)(0x674E7127)
+F (..\..\bsp\uart\bsp_uart.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/bsp_uart.o -MD)
+I (..\..\board\board.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\module\soft_timer\soft_timer.hh.\..\module\buzzer\buzzer.h)(0x00000000)
+F (..\..\bsp\DHT11\dht11.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/dht11.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (..\..\board\board.h2:\Keil5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\..\board\gd32f4xx_libopt.hR.\..\bsp\uart\bsp_uart.h)(0x00000000)
+I (..\..\module\soft_timer\soft_timer.hs.\..\module\buzzer\buzzer.h)(0x00000000)
+F (..\..\bsp\esp01s\bsp_esp01s.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/bsp_esp01s.o -MD)
+I (..\..\bsp\esp01s\bsp_ESP01S.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\board.h)(0x00000000)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h..\..\bsp\esp01s\hmacsha1.h)(0x00000000)
+I (..\..\bsp\DHT11\dht11.hz.\..\bsp\adc+mda\adc.h)(0x00000000)
+F (..\..\bsp\esp01s\hmacsha1.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/hmacsha1.o -MD)
+I (..\..\bsp\esp01s\hmacsha1.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+F (..\..\bsp\led\bsp_led.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/bsp_led.o -MD)
+I (..\..\board\board.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h)(0x674E7127)
+F (..\..\bsp\OLED\HARDWARE\OLED\oled.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/oled.o -MD)
+I (..\..\bsp\OLED\HARDWARE\OLED\oled.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (..\..\bsp\OLED\HARDWARE\OLED\oledfont.hh.\..\board\board.h)(0x00000000)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h)(0x674E7127)
+F (..\..\bsp\Time\time.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/time.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h..\..\bsp\Time\time.h)(0x00000000)
+F (..\..\bsp\Time\time.h)(0x674E7127)()
+F (..\..\bsp\adc+mda\adc.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/adc.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h..\..\bsp\adc+mda\adc.h)(0x00000000)
+F (..\..\bsp\adc+mda\adc.h)(0x674E7127)()
+F (..\..\bsp\gps\bsp_gps.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/bsp_gps.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (..\..\board\board.h2:\Keil5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\..\board\gd32f4xx_libopt.hR.\..\bsp\uart\bsp_uart.h)(0x00000000)
+I (..\..\module\soft_timer\soft_timer.hs.\..\module\buzzer\buzzer.h)(0x00000000)
+I (E:\Keil5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+F (..\..\bsp\bump\bump.c)(0x674E7127)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../app -I ../../bsp -I ../../libraries/CMSIS/GD/GD32F4xx/Include -I ../../libraries/CMSIS/GD/GD32F4xx -I ../../libraries/GD32F4xx_standard_peripheral/Include -I ../../libraries/CMSIS -I ../../libraries/CMSIS/GD/GD32F4xx/Source/ARM -I ../../board -I ../../module/soft_timer -I ../../module/ringbuffer -I ../../module/buzzer -I ../../bsp/uart -I ../../bsp/DHT11 -I ../../bsp/esp01s -I ../../bsp/led -I ../../bsp/OLED/HARDWARE/OLED -I ../../bsp/Time -I ../../bsp/adc+mda -I ../../bsp/gps -I ../../bsp/bump-IE:/Keil5/Pack/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="539" -DGD32F407 -DUSE_STDPERIPH_DRIVER -DGD32F407 -D__TARGET_FPU_VFP-o ./objects/bump.o -MD)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\..\libraries\CMSIS\core_cmInstr.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cmFunc.h)(0x674E7127)
+I (..\..\libraries\CMSIS\core_cm4_simd.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x674E7127)
+I (..\..\libraries\CMSIS\GD\GD32F4xx\Include\..\..\..\..\..\board\gd32f4xx_libopt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x674E7127)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\libraries\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x674E7127)
+I (E:\Keil5\ARM\ARMCLANG\include\board\gd32f4xx_libopt.h)(0x00000000)
+I (..\..\bsp\uart\bsp_uart.hl.\..\module\soft_timer\soft_timer.h)(0x00000000)
+I (..\..\module\buzzer\buzzer.h..\..\bsp\bump\bump.h)(0x00000000)
+F (..\..\bsp\bump\bump.h)(0x674E7127)()
+F (..\..\README.md)(0x674E7127)()
