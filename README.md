@@ -16,4 +16,6 @@
 * module：主要存放各种软件模块，比如软件定时器，PID,FIFO,状态机等
 * project：存放工程文件（目前只支持MDK5）
 
-<img src="./image.png" alt="模板目录结构" width="700">
+<div align="center">
+  <img src="./image.png" width="500">
+</div>
