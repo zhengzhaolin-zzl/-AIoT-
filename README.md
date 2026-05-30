@@ -1,11 +1,13 @@
 把zip文件解压出来
 # 模板目录说明
-├─app
-├─bsp
-├─board
-├─libraries
-├─module
-└─project
+```text
+├── app
+├── bsp
+├── board
+├── libraries
+├── module
+└── project
+```
 
 * app：存放应用程序，由用户编写
 * bsp：存放和底层相关的支持包
