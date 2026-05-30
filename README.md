@@ -19,4 +19,5 @@
 * module：主要存放各种软件模块，比如软件定时器，PID,FIFO,状态机等
 * project：存放工程文件（目前只支持MDK5）
 
+* 硬件原理图
 ![原理图](./yinjiang.png)
