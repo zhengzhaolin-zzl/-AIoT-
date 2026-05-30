@@ -23,9 +23,10 @@
 ![原理图](./yinjiang.png)
 * 阿里云AIOT平台
 ![阿里云AIOT平台](./wangye1.png)
-* 阿里云AIOT平台
 ![阿里云AIOT平台](./wangye2.png)
-* 阿里云AIOT平台
 ![阿里云AIOT平台](./wangye3.png)
-* 阿里云AIOT平台
 ![阿里云AIOT平台](./wangye4.png)
+* 钉钉智能机器人
+![钉钉智能机器人](./image.png)
+* BOOM清单
+![BOOM清单](./boom.png)
